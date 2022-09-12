@@ -1,0 +1,6 @@
+.separator |
+.import member.dat Member
+.import loan.dat Loan
+.import memberfinance.dat MemberFinance
+.import address.dat Address
+

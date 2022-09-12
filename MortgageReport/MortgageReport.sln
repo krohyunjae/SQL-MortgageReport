@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32407.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "MortgageReport", "MortgageReport\MortgageReport.rptproj", "{F5EA378B-EF6B-4237-866E-4CCA587DA7B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5EA378B-EF6B-4237-866E-4CCA587DA7B2}.Debug|Default.ActiveCfg = Debug
+		{F5EA378B-EF6B-4237-866E-4CCA587DA7B2}.Debug|Default.Build.0 = Debug
+		{F5EA378B-EF6B-4237-866E-4CCA587DA7B2}.Debug|Default.Deploy.0 = Debug
+		{F5EA378B-EF6B-4237-866E-4CCA587DA7B2}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{F5EA378B-EF6B-4237-866E-4CCA587DA7B2}.DebugLocal|Default.Build.0 = DebugLocal
+		{F5EA378B-EF6B-4237-866E-4CCA587DA7B2}.Release|Default.ActiveCfg = Release
+		{F5EA378B-EF6B-4237-866E-4CCA587DA7B2}.Release|Default.Build.0 = Release
+		{F5EA378B-EF6B-4237-866E-4CCA587DA7B2}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E97D81BA-EDCD-4D02-BCB6-29B438231F39}
+	EndGlobalSection
+EndGlobal

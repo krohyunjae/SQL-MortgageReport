@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSet Name="DataSet1">
+    <Query>
+      <DataSourceReference>MortgageDataSource1</DataSourceReference>
+      <CommandText>SELECT        Loan.loanId, Loan.memberfinanceId AS Expr1, Loan.date, Loan.purpose, Loan.paymentTerm, Loan.loanAmount, Loan.interestRate, Loan.monthlyPayment, Loan.loanGrade, Loan.loanStatus, MemberFinance.*
+FROM            Loan INNER JOIN
+                         MemberFinance ON Loan.memberfinanceId = MemberFinance.memberfinanceId</CommandText>
+    </Query>
+    <Fields>
+      <Field Name="loanId">
+        <DataField>loanId</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="Expr1">
+        <DataField>Expr1</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="date">
+        <DataField>date</DataField>
+        <rd:TypeName>System.DateTime</rd:TypeName>
+      </Field>
+      <Field Name="purpose">
+        <DataField>purpose</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="paymentTerm">
+        <DataField>paymentTerm</DataField>
+        <rd:TypeName>System.Int16</rd:TypeName>
+      </Field>
+      <Field Name="loanAmount">
+        <DataField>loanAmount</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="interestRate">
+        <DataField>interestRate</DataField>
+        <rd:TypeName>System.Double</rd:TypeName>
+      </Field>
+      <Field Name="monthlyPayment">
+        <DataField>monthlyPayment</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="loanGrade">
+        <DataField>loanGrade</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="loanStatus">
+        <DataField>loanStatus</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="memberfinanceId">
+        <DataField>memberfinanceId</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="memberId">
+        <DataField>memberId</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="creditScore">
+        <DataField>creditScore</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="yearsEmployment">
+        <DataField>yearsEmployment</DataField>
+        <rd:TypeName>System.Byte</rd:TypeName>
+      </Field>
+      <Field Name="annualIncome">
+        <DataField>annualIncome</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="incomeVerified">
+        <DataField>incomeVerified</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="dtiRatio">
+        <DataField>dtiRatio</DataField>
+        <rd:TypeName>System.Double</rd:TypeName>
+      </Field>
+      <Field Name="lengthCreditHistory">
+        <DataField>lengthCreditHistory</DataField>
+        <rd:TypeName>System.Byte</rd:TypeName>
+      </Field>
+      <Field Name="numTotalCreditLines">
+        <DataField>numTotalCreditLines</DataField>
+        <rd:TypeName>System.Int16</rd:TypeName>
+      </Field>
+      <Field Name="numOpenCreditLines">
+        <DataField>numOpenCreditLines</DataField>
+        <rd:TypeName>System.Int16</rd:TypeName>
+      </Field>
+      <Field Name="numOpenCreditLinesLastYear">
+        <DataField>numOpenCreditLinesLastYear</DataField>
+        <rd:TypeName>System.Int16</rd:TypeName>
+      </Field>
+      <Field Name="revolvingBalance">
+        <DataField>revolvingBalance</DataField>
+        <rd:TypeName>System.Double</rd:TypeName>
+      </Field>
+      <Field Name="revolvingUtilizationRate">
+        <DataField>revolvingUtilizationRate</DataField>
+        <rd:TypeName>System.Double</rd:TypeName>
+      </Field>
+      <Field Name="numDeregatoryRec">
+        <DataField>numDeregatoryRec</DataField>
+        <rd:TypeName>System.Int16</rd:TypeName>
+      </Field>
+      <Field Name="numDelinquency2Years">
+        <DataField>numDelinquency2Years</DataField>
+        <rd:TypeName>System.Int16</rd:TypeName>
+      </Field>
+      <Field Name="numChargeOffLastYear">
+        <DataField>numChargeOffLastYear</DataField>
+        <rd:TypeName>System.Int16</rd:TypeName>
+      </Field>
+      <Field Name="numInquiries6Mon">
+        <DataField>numInquiries6Mon</DataField>
+        <rd:TypeName>System.Int16</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>
